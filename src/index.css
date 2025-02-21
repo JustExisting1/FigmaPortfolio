@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi:wght@400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-main: "Reem Kufi", serif;
+
+  --color-primary-1: #ff6464;
+  --color-light-1: #edf7fa;
+}
+
+/*
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +77,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
