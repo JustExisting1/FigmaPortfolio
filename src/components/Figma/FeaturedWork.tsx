@@ -24,7 +24,7 @@ export default function FeaturedWork({
         "flex flex-col sm:flex-row w-full py-4 border-b-1 border-[#E0E0E0]",
         className
       )}
-      to="/details">
+      to={url}>
       <div className="w-full sm:w-[246px] rounded-md shrink-0">
         <img className="size-full" src={src} />
       </div>
