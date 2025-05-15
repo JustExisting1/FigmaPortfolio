@@ -9,12 +9,12 @@ import FigmaBlog from "./Pages/FigmaBlog.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename="/FigmaPortfolio">
+    <BrowserRouter basename="/FigmaPortfolio/">
       <Routes>
-        <Route path="/" element={<FigmaPortfolio />} />
-        <Route path="/works" element={<FigmaWorks />} />
-        <Route path="/details" element={<FigmaWorkDetails />} />
-        <Route path="/blog" element={<FigmaBlog />} />
+        <Route path="" element={<FigmaPortfolio />} />
+        <Route path="works" element={<FigmaWorks />} />
+        <Route path="details" element={<FigmaWorkDetails />} />
+        <Route path="blog" element={<FigmaBlog />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
