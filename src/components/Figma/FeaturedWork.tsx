@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { cn } from "../../util/merge";
 
 export default function FeaturedWork({
@@ -18,12 +19,12 @@ export default function FeaturedWork({
   content: string;
 }) {
   return (
-    <a
+    <Link
       className={cn(
         "flex flex-col sm:flex-row w-full py-4 border-b-1 border-[#E0E0E0]",
         className
       )}
-      href={url}>
+      to={url}>
       <div className="w-full sm:w-[246px] rounded-md shrink-0">
         <img className="size-full" src={src} />
       </div>
@@ -39,6 +40,6 @@ export default function FeaturedWork({
           {content}
         </div>
       </div>
-    </a>
+    </Link>
   );
 }
