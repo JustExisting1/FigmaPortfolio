@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi:wght@400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-main: "Reem Kufi", serif;
+  --font-heebo: "Heebo", serif;
+
+  --color-primary-1: #ff6464;
+  /* --color-light-1: #edf7fa; */
+  --color-dark-1: #142850;
+  --color-light-1: #8695A4;
+
+}
+
+/*
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +81,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
