@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="" element={<FigmaPortfolio />} />
+        <Route path="/" element={<FigmaPortfolio />} />
         <Route path="/works" element={<FigmaWorks />} />
         <Route path="/works/details" element={<FigmaWorkDetails />} />
         <Route path="/blog" element={<FigmaBlog />} />

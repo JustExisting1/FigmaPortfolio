@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://justexisting1.github.io/FigmaPortfolio/",
+  "homepage": "https://justexisting1.github.io/FigmaPortfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
