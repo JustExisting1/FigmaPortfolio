@@ -4,16 +4,16 @@ export default function FigmaFooter() {
       <div className="flex flex-col place-items-center gap-y-4">
         <div className="flex flex-row gap-8">
           <a>
-            <img src="/fb.png" />
+            <img src="./fb.png" />
           </a>
           <a>
-            <img src="/insta.png" />
+            <img src="./insta.png" />
           </a>
           <a>
-            <img src="/twitter.png" />
+            <img src="./twitter.png" />
           </a>
           <a>
-            <img src="/Linkedin.png" />
+            <img src="./Linkedin.png" />
           </a>
         </div>
         <div className="">Copyright ©2020 All rights reserved </div>

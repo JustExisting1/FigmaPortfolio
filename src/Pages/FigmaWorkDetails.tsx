@@ -26,7 +26,7 @@ export default function FigmaWorkDetails() {
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
-              <img className="size-full" src="/Details1.png" />
+              <img className="size-full" src="./Details1.png" />
               <h1 className="text-[30px] font-bold">Heading 1</h1>
               <h2 className="text-[24px] font-bold">Heading 2</h2>
               <p className="text-[16px]">
@@ -34,8 +34,8 @@ export default function FigmaWorkDetails() {
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
-              <img className="size-full" src="/Details2.png" />
-              <img className="size-full" src="/Details3.png" />
+              <img className="size-full" src="./Details2.png" />
+              <img className="size-full" src="./Details3.png" />
             </div>
           </div>
           <FigmaFooter />

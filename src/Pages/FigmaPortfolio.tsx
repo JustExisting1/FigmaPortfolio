@@ -25,7 +25,7 @@ function FigmaPortfolio() {
             <div className="flex w-full sm:w-2/5 mb-12 sm:mb-0 shrink-0 grow-0 place-items-center place-content-center order-first sm:order-last">
               <img
                 className="size-[243px] rounded-full z-10"
-                src="/Ellipse 1.png"
+                src="./Ellipse 1.png"
               />
               <svg
                 className="absolute -translate-x-1 translate-y-3 z-0"
@@ -84,7 +84,7 @@ function FigmaPortfolio() {
               <div className="space-y-4">
                 <FeaturedWork
                   url="/"
-                  src="/Featured1.png"
+                  src="./Featured1.png"
                   title="Designing Dashboards"
                   year="2020"
                   tag="Dashboard"
@@ -94,7 +94,7 @@ function FigmaPortfolio() {
                 />
                 <FeaturedWork
                   url="/"
-                  src="/Featured2.png"
+                  src="./Featured2.png"
                   title="Vibrant Portraits of 2020"
                   year="2018"
                   tag="Illustration"
@@ -104,7 +104,7 @@ function FigmaPortfolio() {
                 />
                 <FeaturedWork
                   url="/"
-                  src="/Featured3.png"
+                  src="./Featured3.png"
                   title="36 Days of Malayalam type"
                   year="2018"
                   tag="Typography"
