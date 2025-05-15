@@ -13,7 +13,7 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route path="" element={<FigmaPortfolio />} />
         <Route path="works" element={<FigmaWorks />} />
-        <Route path="works/details" element={<FigmaWorkDetails />} />
+        <Route path="details" element={<FigmaWorkDetails />} />
         <Route path="blog" element={<FigmaBlog />} />
       </Routes>
     </BrowserRouter>

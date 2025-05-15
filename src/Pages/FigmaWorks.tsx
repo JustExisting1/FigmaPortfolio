@@ -12,7 +12,7 @@ function FigmaWorks() {
             <h1 className="text-[44px] font-bold">Work</h1>
             <FeaturedWork
               className="py-8"
-              url="./details"
+              url="/details"
               src="./Featured1.png"
               title="Designing Dashboards"
               year="2020"
@@ -23,7 +23,7 @@ function FigmaWorks() {
             />
             <FeaturedWork
               className="py-8"
-              url="./details"
+              url="/details"
               src="./Featured2.png"
               title="Vibrant Portraits of 2020"
               year="2018"
@@ -34,7 +34,7 @@ function FigmaWorks() {
             />
             <FeaturedWork
               className="py-8"
-              url="./details"
+              url="/details"
               src="./Featured3.png"
               title="36 Days of Malayalam type"
               year="2018"
@@ -45,7 +45,7 @@ function FigmaWorks() {
             />
             <FeaturedWork
               className="py-8"
-              url="./details"
+              url="/details"
               src="./Featured4.png"
               title="Components"
               year="2018"
