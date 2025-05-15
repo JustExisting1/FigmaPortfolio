@@ -13,7 +13,7 @@ function FigmaWorks() {
             <FeaturedWork
               className="py-8"
               url="/works/details"
-              src="/Featured1.png"
+              src="./Featured1.png"
               title="Designing Dashboards"
               year="2020"
               tag="Dashboard"
@@ -24,7 +24,7 @@ function FigmaWorks() {
             <FeaturedWork
               className="py-8"
               url="/works/details"
-              src="/Featured2.png"
+              src="./Featured2.png"
               title="Vibrant Portraits of 2020"
               year="2018"
               tag="Illustration"
@@ -35,7 +35,7 @@ function FigmaWorks() {
             <FeaturedWork
               className="py-8"
               url="/works/details"
-              src="/Featured3.png"
+              src="./Featured3.png"
               title="36 Days of Malayalam type"
               year="2018"
               tag="Typography"
@@ -46,7 +46,7 @@ function FigmaWorks() {
             <FeaturedWork
               className="py-8"
               url="/works/details"
-              src="/Featured4.png"
+              src="./Featured4.png"
               title="Components"
               year="2018"
               tag="Components, Design"
