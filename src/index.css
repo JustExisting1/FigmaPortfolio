@@ -1,11 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi:wght@400..700&display=swap");
 @import "tailwindcss";
 
 @theme {
   --font-main: "Reem Kufi", serif;
+  --font-heebo: "Heebo", serif;
 
   --color-primary-1: #ff6464;
-  --color-light-1: #edf7fa;
+  /* --color-light-1: #edf7fa; */
+  --color-dark-1: #142850;
+  --color-light-1: #8695A4;
+
 }
 
 /*

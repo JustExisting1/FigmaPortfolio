@@ -1,18 +1,19 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.tsx";
-import LandingPage from "./Pages/LandingPage.tsx";
-import Navbar from "./components/Navbar.tsx";
 import FigmaPortfolio from "./Pages/FigmaPortfolio.tsx";
+import { BrowserRouter, Route, Routes } from "react-router";
+import FigmaWorks from "./Pages/FigmaWorks.tsx";
+import FigmaWorkDetails from "./Pages/FigmaWorkDetails.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div className="w-full h-dvh">
-      <FigmaPortfolio />
-      {/* <Navbar />
-      <LandingPage /> */}
-    </div>
-    {/* <App /> */}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<FigmaPortfolio />} />
+        <Route path="/works" element={<FigmaWorks />} />
+        <Route path="/works/details" element={<FigmaWorkDetails />} />
+      </Routes>
+    </BrowserRouter>
   </StrictMode>
 );
