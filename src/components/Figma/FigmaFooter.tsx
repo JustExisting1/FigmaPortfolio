@@ -1,6 +1,6 @@
 export default function FigmaFooter() {
   return (
-    <footer className="bg-white h-[182px] w-full flex flex-col place-content-center mt-24">
+    <footer className="bg-white h-[182px] w-full flex flex-col place-content-center mt-20">
       <div className="flex flex-col place-items-center gap-y-4">
         <div className="flex flex-row gap-8">
           <a>

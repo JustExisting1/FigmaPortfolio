@@ -23,7 +23,7 @@ export default function NavBarFigma({
       </Link>
       <Link
         className={`${
-          location.pathname == "/works" ? "text-primary-1" : "text-black"
+          location.pathname.includes("/works") ? "text-primary-1" : "text-black"
         }`}
         to="/works">
         Works
@@ -39,7 +39,7 @@ export default function NavBarFigma({
         className={`${
           location.pathname == "/contact" ? "text-primary-1" : "text-black"
         }`}
-        to="/contact">
+        to="/">
         Contact
       </Link>
     </div>
